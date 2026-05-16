@@ -26,6 +26,7 @@ public ToppingsPanel() {
     add(label, BorderLayout.NORTH);
     add(cbPanel, BorderLayout.CENTER);
 }
+/** This method gets the total cost of toppings selected */
 	public double getToppingCost() {
 		add(new JLabel("Toppings"), BorderLayout.NORTH);
 		double toppingCost = 0;
